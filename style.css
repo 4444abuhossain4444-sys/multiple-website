@@ -99,5 +99,31 @@ main{
 .Latesed-Video h3{
     color: #04aa6d;
 }
-
+/* img section start */
+#main-section{
+    background-color: #1a236d;
+    padding-bottom: 50px;
+}
+.all-things-parent{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    grid-row-gap: 55px;   
+    grid-column-gap: 20px;
+}
+.single-img-box{
+    height: 200px;
+}
+.single-img-box img{
+    width: 100%;
+    height: 100%;
+   
+}
+.single-img-box div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+}
    
