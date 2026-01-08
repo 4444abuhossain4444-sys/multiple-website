@@ -14,6 +14,7 @@ nav{
     background-color: #1a1244;
     height: 45px;
     padding: 0 100px;
+    border-bottom: 4px solid #2f207a;
    
 }
 nav ul{
@@ -35,3 +36,37 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 /* header section start */
+header{
+   background-image: url(image/website-bennar.jpg);
+   padding: 200px 0;
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.header-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-parent i{
+    color: red;
+    font-size: 20px;
+    background-color: green;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -4px;
+     }
+.header-parent input{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 0 10px;
+
+}
