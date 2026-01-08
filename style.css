@@ -60,7 +60,7 @@ header{
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: -4px;
+    margin-left: -5px;
      }
 .header-parent input{
     width: 350px;
@@ -68,5 +68,36 @@ header{
     border-radius: 5px;
     font-size: 17px;
     padding: 0 10px;
+    outline: none;
 
 }
+/* first section code start */
+main{
+     background-color: #1a236d;
+     padding-top: 20px;
+}
+#main-parent{
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 50px 0;   
+}
+.two-child-parent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.two-page span{
+    background-color: antiquewhite;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: black;
+    border: 1px solid #7c7272;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Latesed-Video h3{
+    color: #04aa6d;
+}
+
+   
