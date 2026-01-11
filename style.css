@@ -15,7 +15,8 @@ nav{
     height: 45px;
     padding: 0 100px;
     border-bottom: 4px solid #2f207a;
-   
+   position: sticky;
+   top: 0;
 }
 nav ul{
     display: flex;
