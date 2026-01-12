@@ -3,6 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* navigation code start */
+nav .one-image img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    height: 45px;
+    padding: 0 100px;
+    border-bottom: 4px solid #2f207a;
+   position: sticky;
+   top: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: red;
+    border-radius: 5px;
+     }
+     /* navigation code finish */
 .main-div-parent{
     max-width: 900px;
     margin: 0 auto;
